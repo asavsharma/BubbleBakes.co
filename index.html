@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Bubble Bakes | Homemade Brownies, Cakes &amp; Desserts</title>
+  <meta name="description" content="Bubble Bakes is a small-batch home bakery in Delhi making rich, fudgy brownies, cakes and layered jar desserts — freshly baked to order." />
+  <meta name="theme-color" content="#f6efe4" />
+
+  <!-- Fonts: one serif for headings, one sans-serif for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION (sticky)
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Bubble Bakes</a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#story" class="nav-link">Our Story</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#order" class="nav-link">Order</a>
+        <a href="#order" class="btn btn-primary nav-cta">Order Now</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-content reveal">
+      <span class="badge">Home Bakery • Delhi</span>
+      <h1 class="hero-title">Fudgy brownies, baked with love.</h1>
+      <p class="hero-text">
+        Bubble Bakes is a small-batch home bakery making rich, gooey brownies,
+        cakes and layered jar desserts — freshly baked to order.
+      </p>
+      <div class="hero-buttons">
+        <a href="#order" class="btn btn-primary">Order Now</a>
+        <a href="#menu" class="btn btn-outline">Explore the Menu</a>
+      </div>
+    </div>
+    <div class="hero-image reveal">
+      <img src="images/hero-brownies.jpg" alt="A tray of freshly baked fudgy brownies" />
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BESTSELLERS / FEATURED
+  ============================================================ -->
+  <section class="section featured" id="featured">
+    <div class="section-head reveal">
+      <span class="eyebrow">Loved by regulars</span>
+      <h2>Our little bestsellers</h2>
+      <p>The treats people keep coming back for.</p>
+    </div>
+
+    <div class="featured-grid">
+      <article class="feature-card reveal">
+        <div class="feature-img">
+          <img src="images/fudgy-brownie.jpg" alt="Fudgy brownie" />
+          <span class="tag tag-best">Bestseller</span>
+        </div>
+        <h3>Fudgy Brownie</h3>
+        <p class="feature-price">₹69</p>
+      </article>
+
+      <article class="feature-card feature-highlight reveal">
+        <div class="feature-img">
+          <img src="images/nutella-brownie.jpg" alt="Nutella brownie with chocolate drizzle" />
+          <span class="tag tag-fav">Most Loved</span>
+        </div>
+        <h3>Nutella Brownie</h3>
+        <p class="feature-price">₹99</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-img">
+          <img src="images/walnut-brownie.jpg" alt="Walnut brownie with visible walnuts" />
+        </div>
+        <h3>Walnut Brownie</h3>
+        <p class="feature-price">₹89</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-img">
+          <img src="images/oreo-brownie.jpg" alt="Oreo brownie topped with Oreo cookies" />
+        </div>
+        <h3>Oreo Brownie</h3>
+        <p class="feature-price">₹79</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OUR STORY
+  ============================================================ -->
+  <section class="section story" id="story">
+    <div class="story-grid">
+      <div class="story-image reveal">
+        <img src="images/gallery-fudgy-box.jpg" alt="A box of freshly cut brownies" />
+      </div>
+      <div class="story-text reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2>What started in a home kitchen.</h2>
+        <p>
+          What started during a strange and uncertain time became something
+          unexpectedly meaningful. During the COVID period, baking and
+          experimenting with desserts became a way to spend time creatively —
+          a small, calming corner of the day.
+        </p>
+        <p>
+          Over time, that experimenting turned into something genuinely
+          enjoyable. The happiness people felt when they received and tasted a
+          dessert became the biggest reason to keep going. A simple batch of
+          brownies could quietly make someone's day a little better.
+        </p>
+        <p>
+          What began from a home kitchen slowly grew into a small bakery idea,
+          built around one thing: making desserts that make people happy.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PURPOSE / MISSION
+  ============================================================ -->
+  <section class="section purpose">
+    <div class="purpose-inner reveal">
+      <span class="eyebrow">More than just dessert</span>
+      <h2>Why Bubble Bakes exists</h2>
+      <p>
+        Desserts have a way of showing up in the moments that matter — birthdays,
+        celebrations, little gifts, quiet family evenings, comfort after a long
+        day, or simply treating yourself for no reason at all. Bubble Bakes exists
+        to make those moments a little sweeter, one freshly baked batch at a time.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VALUES
+  ============================================================ -->
+  <section class="section values">
+    <div class="section-head reveal">
+      <span class="eyebrow">What we care about</span>
+      <h2>Little things we never skip</h2>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <div class="value-icon" aria-hidden="true">★</div>
+        <h3>Quality First</h3>
+        <p>Every dessert should be worth coming back for.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-icon" aria-hidden="true">✦</div>
+        <h3>Freshness</h3>
+        <p>We bake in small batches so treats reach customers fresh.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-icon" aria-hidden="true">❦</div>
+        <h3>Honest Ingredients</h3>
+        <p>We believe good desserts start with good ingredients.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-icon" aria-hidden="true">♥</div>
+        <h3>Made With Care</h3>
+        <p>Every order is prepared and packed with attention.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-icon" aria-hidden="true">☺</div>
+        <h3>Happiness</h3>
+        <p>At the heart of Bubble Bakes is a simple goal: make people happy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       QUALITY & INGREDIENTS  +  GOALS
+  ============================================================ -->
+  <section class="section quality">
+    <div class="quality-grid">
+      <div class="quality-card reveal">
+        <span class="eyebrow">The difference is in the details</span>
+        <h2>Baked slowly, packed carefully.</h2>
+        <p>
+          We focus on the things you can actually taste: good-quality
+          ingredients, carefully prepared batters, fresh preparation and a
+          balanced sweetness that isn't overpowering. Everything is baked in
+          small batches and packed with care so it reaches you the way it left
+          our kitchen.
+        </p>
+      </div>
+      <div class="quality-card reveal">
+        <span class="eyebrow">What we're building towards</span>
+        <h2>Our goal</h2>
+        <ul class="goal-list">
+          <li>Keeping our quality consistent, order after order</li>
+          <li>Using good-quality ingredients</li>
+          <li>Introducing new flavours thoughtfully</li>
+          <li>Making desserts people genuinely enjoy</li>
+          <li>Improving the experience for every customer</li>
+          <li>Growing through word of mouth and happy customers</li>
+          <li>Staying a homemade, small-batch bakery at heart</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MENU
+  ============================================================ -->
+  <section class="section menu" id="menu">
+    <div class="section-head reveal">
+      <span class="eyebrow">Freshly baked to order</span>
+      <h2>Our Menu</h2>
+      <p>Browse everything we make — prices and all.</p>
+    </div>
+
+    <!-- Filter buttons -->
+    <div class="filters reveal" id="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="brownies">Brownies</button>
+      <button class="filter-btn" data-filter="cakes">Cakes</button>
+      <button class="filter-btn" data-filter="jar">Heaven in a Jar</button>
+    </div>
+
+    <!-- Product grid -->
+    <div class="menu-grid" id="menuGrid">
+
+      <!-- ---------- BROWNIES ---------- -->
+      <article class="product-card" data-category="brownies">
+        <div class="product-img">
+          <img src="images/fudgy-brownie.jpg" alt="Fudgy brownie" />
+          <span class="tag tag-best">Bestseller</span>
+        </div>
+        <div class="product-body">
+          <h3>Fudgy Brownie</h3>
+          <p class="product-desc">Dense, gooey and rich — our classic dark chocolate brownie.</p>
+          <div class="product-foot">
+            <span class="price">₹69</span>
+            <button class="btn btn-primary btn-order" data-product="Fudgy Brownie">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="brownies">
+        <div class="product-img">
+          <img src="images/nutella-brownie.jpg" alt="Nutella brownie with chocolate drizzle" />
+        </div>
+        <div class="product-body">
+          <h3>Nutella Brownie</h3>
+          <p class="product-desc">Fudgy brownie finished with a generous chocolate-hazelnut drizzle.</p>
+          <div class="product-foot">
+            <span class="price">₹99</span>
+            <button class="btn btn-primary btn-order" data-product="Nutella Brownie">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="brownies">
+        <div class="product-img">
+          <img src="images/walnut-brownie.jpg" alt="Walnut brownie with visible walnuts" />
+        </div>
+        <div class="product-body">
+          <h3>Walnut Brownie</h3>
+          <p class="product-desc">Our fudgy base loaded with crunchy, toasted walnuts.</p>
+          <div class="product-foot">
+            <span class="price">₹89</span>
+            <button class="btn btn-primary btn-order" data-product="Walnut Brownie">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="brownies">
+        <div class="product-img">
+          <img src="images/oreo-brownie.jpg" alt="Oreo brownie topped with Oreo cookies" />
+        </div>
+        <div class="product-body">
+          <h3>Oreo Brownie</h3>
+          <p class="product-desc">Rich brownie topped with a whole Oreo and melted chocolate.</p>
+          <div class="product-foot">
+            <span class="price">₹79</span>
+            <button class="btn btn-primary btn-order" data-product="Oreo Brownie">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="brownies">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🍫</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Eggless Brownie</h3>
+          <p class="product-desc">All the fudge, none of the eggs. Landing on the menu soon.</p>
+          <div class="product-foot">
+            <span class="price">₹59</span>
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="brownies">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🍫</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Vegan Brownie</h3>
+          <p class="product-desc">A plant-based version of our favourite. In the works.</p>
+          <div class="product-foot">
+            <span class="price">₹79</span>
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- CAKES ---------- -->
+      <article class="product-card" data-category="cakes">
+        <div class="product-img">
+          <img src="images/truffle-cake.jpg" alt="Chocolate truffle cake with ganache border" />
+        </div>
+        <div class="product-body">
+          <h3>Truffle Cake</h3>
+          <p class="product-desc">Moist chocolate sponge layered with smooth chocolate truffle.</p>
+          <div class="price-sizes">
+            <span>½ kg — ₹700</span>
+            <span>1 kg — ₹1200</span>
+          </div>
+          <div class="product-foot">
+            <button class="btn btn-primary btn-order" data-product="Truffle Cake">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img">
+          <img src="images/strawberry-overload.jpg" alt="Pink strawberry overload cake with fresh strawberries" />
+        </div>
+        <div class="product-body">
+          <h3>Strawberry Overload</h3>
+          <p class="product-desc">Soft cake with strawberry cream and fresh chopped strawberries.</p>
+          <div class="price-sizes">
+            <span>½ kg — ₹400</span>
+            <span>1 kg — ₹1000</span>
+          </div>
+          <div class="product-foot">
+            <button class="btn btn-primary btn-order" data-product="Strawberry Overload">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🎂</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Black Forest</h3>
+          <p class="product-desc">A classic in the making.</p>
+          <div class="price-sizes">
+            <span>½ kg — ₹600</span>
+            <span>1 kg — ₹1000</span>
+          </div>
+          <div class="product-foot">
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🎂</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Chocolate Caramel</h3>
+          <p class="product-desc">Chocolate and caramel — coming to the menu soon.</p>
+          <div class="price-sizes">
+            <span>½ kg — ₹700</span>
+            <span>1 kg — ₹1200</span>
+          </div>
+          <div class="product-foot">
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🎂</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Blueberry Cheesecake</h3>
+          <p class="product-desc">Creamy cheesecake with blueberry. Almost ready.</p>
+          <div class="price-sizes">
+            <span>1 kg — ₹1300</span>
+          </div>
+          <div class="product-foot">
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🎂</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Nutella Cheesecake</h3>
+          <p class="product-desc">Rich cheesecake meets Nutella. Coming soon.</p>
+          <div class="price-sizes">
+            <span>1 kg — ₹1400</span>
+          </div>
+          <div class="product-foot">
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🎂</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Red Velvet Cake</h3>
+          <p class="product-desc">A menu favourite in the making.</p>
+          <div class="product-foot">
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="cakes">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🎂</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Confetti Cake</h3>
+          <p class="product-desc">Fun and colourful — arriving soon.</p>
+          <div class="product-foot">
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------- HEAVEN IN A JAR ---------- -->
+      <article class="product-card" data-category="jar">
+        <div class="product-img">
+          <img src="images/nutella-mousse-jar.jpg" alt="Nutella mousse layered jar dessert" />
+        </div>
+        <div class="product-body">
+          <h3>Nutella Mousse</h3>
+          <p class="product-desc">Layers of biscuit crumble and silky Nutella mousse.</p>
+          <div class="product-foot">
+            <span class="price">₹199 <small>· 300 ml</small></span>
+            <button class="btn btn-primary btn-order" data-product="Nutella Mousse">Order</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jar">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🫐</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Blueberry Jar Cake</h3>
+          <p class="product-desc">Layered blueberry jar dessert. Coming soon.</p>
+          <div class="product-foot">
+            <span class="price">₹199 <small>· 300 ml</small></span>
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jar">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🍪</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Oreo Mousse</h3>
+          <p class="product-desc">Cookies-and-cream mousse in a jar. Coming soon.</p>
+          <div class="product-foot">
+            <span class="price">₹199 <small>· 300 ml</small></span>
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="jar">
+        <div class="product-img product-soon">
+          <span class="soon-emoji" aria-hidden="true">🍮</span>
+          <span class="tag tag-soon">Coming Soon</span>
+        </div>
+        <div class="product-body">
+          <h3>Chocolate Trifle Mousse</h3>
+          <p class="product-desc">Layered chocolate trifle mousse. Coming soon.</p>
+          <div class="product-foot">
+            <span class="price">₹199 <small>· 300 ml</small></span>
+            <button class="btn btn-disabled" disabled>Coming Soon</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY
+  ============================================================ -->
+  <section class="section gallery" id="gallery">
+    <div class="section-head reveal">
+      <span class="eyebrow">Straight from our kitchen</span>
+      <h2>A peek at the treats we've been making.</h2>
+    </div>
+
+    <div class="gallery-grid reveal">
+      <img class="g-tall" src="images/gallery-big-order.jpg" alt="A large order of fudgy brownies in boxes" />
+      <img src="images/gallery-premium-brownies.jpg" alt="Assorted brownies with Oreo and chocolate drizzle" />
+      <img src="images/gallery-custom-order.jpg" alt="Customised brownie order boxes" />
+      <img class="g-wide" src="images/gallery-fudgy-two-boxes.jpg" alt="Two boxes of fudgy brownies side by side" />
+      <img src="images/gallery-chocolate-cake.jpg" alt="Chocolate cake covered in ganache" />
+      <img src="images/nutella-mousse-jar.jpg" alt="Nutella mousse jars" />
+      <img src="images/oreo-brownie.jpg" alt="Oreo brownies close up" />
+      <img class="g-wide" src="images/gallery-fudgy-box.jpg" alt="A box of freshly cut fudgy brownies" />
+    </div>
+
+    <div class="center reveal">
+      <a class="btn btn-outline" href="https://instagram.com/bubblebakes.co" target="_blank" rel="noopener">See more on Instagram</a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REVIEWS (real customer messages)
+  ============================================================ -->
+  <section class="section reviews">
+    <div class="section-head reveal">
+      <span class="eyebrow">What people love</span>
+      <h2>Kind words from our customers</h2>
+      <p>Real messages from people who've ordered from us.</p>
+    </div>
+
+    <div class="reviews-grid reveal">
+      <figure class="review-card">
+        <img src="images/review-3.png" alt="Customer message praising the fudgy brownies filled with dark chocolate" />
+      </figure>
+      <figure class="review-card">
+        <img src="images/review-1.png" alt="Customer message saying the brownies were delicious and packaging was exceptional" />
+      </figure>
+      <figure class="review-card">
+        <img src="images/review-2.png" alt="Customer message saying the brownies were super nice" />
+      </figure>
+      <figure class="review-card">
+        <img src="images/review-4.png" alt="Customer message saying everything was better than expected" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ORDER SECTION
+  ============================================================ -->
+  <section class="section order" id="order">
+    <div class="section-head reveal">
+      <span class="eyebrow">Ready for a sweet treat?</span>
+      <h2>Ordering is easy</h2>
+      <p>
+        We take orders directly through Instagram — it's the quickest way to
+        reach us. Send us a message and we'll take care of the rest.
+      </p>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps reveal">
+      <div class="step">
+        <span class="step-num">1</span>
+        <h3>Send us a message</h3>
+        <p>Tell us what you'd like, the quantity and any preferences.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <h3>Confirm your order</h3>
+        <p>We'll confirm availability, price and pickup/delivery details.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <h3>Pay &amp; enjoy</h3>
+        <p>Once confirmed, pay using the available method and enjoy something freshly baked.</p>
+      </div>
+    </div>
+
+    <div class="order-cta reveal">
+      <a class="btn btn-primary btn-lg" href="https://instagram.com/bubblebakes.co" target="_blank" rel="noopener">Message Bubble Bakes on Instagram</a>
+      <p class="order-note">Based in Delhi — pickup &amp; local delivery</p>
+      <p class="order-note">GPay • UPI • Paytm accepted</p>
+    </div>
+
+    <!-- Enquiry form -->
+    <div class="form-wrap reveal">
+      <h3 class="form-title">Or send us an enquiry</h3>
+      <form id="orderForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <span class="error" id="err-name"></span>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="10-digit number" required />
+          <span class="error" id="err-phone"></span>
+        </div>
+
+        <div class="field">
+          <label for="product">Product</label>
+          <select id="product" name="product" required>
+            <option value="">Select a product</option>
+            <optgroup label="Brownies">
+              <option value="Fudgy Brownie">Fudgy Brownie — ₹69</option>
+              <option value="Nutella Brownie">Nutella Brownie — ₹99</option>
+              <option value="Walnut Brownie">Walnut Brownie — ₹89</option>
+              <option value="Oreo Brownie">Oreo Brownie — ₹79</option>
+            </optgroup>
+            <optgroup label="Cakes">
+              <option value="Truffle Cake">Truffle Cake — ₹700 / ₹1200</option>
+              <option value="Strawberry Overload">Strawberry Overload — ₹400 / ₹1000</option>
+            </optgroup>
+            <optgroup label="Heaven in a Jar">
+              <option value="Nutella Mousse">Nutella Mousse — ₹199</option>
+            </optgroup>
+          </select>
+          <span class="error" id="err-product"></span>
+        </div>
+
+        <div class="field">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1" required />
+          <span class="error" id="err-quantity"></span>
+        </div>
+
+        <div class="field">
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" name="date" />
+        </div>
+
+        <div class="field field-full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="3" placeholder="Any preferences or notes?"></textarea>
+        </div>
+
+        <div class="field field-full">
+          <button type="submit" class="btn btn-primary btn-lg">Send Enquiry</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner reveal">
+      <h2>Get in touch</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <h3>Instagram</h3>
+          <a href="https://instagram.com/bubblebakes.co" target="_blank" rel="noopener">@bubblebakes.co</a>
+        </div>
+        <div class="contact-item">
+          <h3>Location</h3>
+          <p>Delhi, India</p>
+        </div>
+        <div class="contact-item">
+          <h3>Ordering</h3>
+          <p>Orders through Instagram</p>
+        </div>
+        <div class="contact-item">
+          <h3>Payment</h3>
+          <p>GPay / UPI / Paytm</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Bubble Bakes</span>
+        <p>Small-batch desserts, made with care.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#order">Order</a>
+      </nav>
+      <a class="footer-ig" href="https://instagram.com/bubblebakes.co" target="_blank" rel="noopener">@bubblebakes.co</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Bubble Bakes · Delhi, India</p>
+  </footer>
+
+  <!-- ============================================================
+       SUCCESS MODAL
+  ============================================================ -->
+  <div class="modal" id="successModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-icon" aria-hidden="true">🎉</div>
+      <h3 id="modalTitle">Thanks!</h3>
+      <p>Your enquiry has been received. Please continue on Instagram to confirm your order.</p>
+      <a class="btn btn-primary" href="https://instagram.com/bubblebakes.co" target="_blank" rel="noopener">Continue on Instagram</a>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="Script.js"></script>
+</body>
+</html>
